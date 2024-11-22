@@ -4,7 +4,7 @@ window.jQuery(function() {
       $('.fb3d-modal').removeClass('light').addClass('dark');
     }, booksOptions = {
       book1: {
-        pdf: 'books/pdf/cyber.pdf',
+        pdf: 'books/pdf/hayatadair1.pdf',
         template: {
           html: 'templates/default-book-view.html',
           styles: [
@@ -20,7 +20,7 @@ window.jQuery(function() {
         styleClb: styleClb
       },
       book2: {
-        pdf: 'books/pdf/malware.pdf',
+        pdf: 'books/pdf/hayatadair2.pdf',
         propertiesCallback: function(props) {
           props.page.depth /= 4;
           props.cover.padding = 0.002;
