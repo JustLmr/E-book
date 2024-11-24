@@ -1,3 +1,10 @@
+const  signup_btn = document.getElementById("signup-btn");
+const  article_middle_h1 = document.getElementById("article-middle-h1");
+const  article_middle_p = document.getElementById("article-middle-p");
+const  submint_btn = document.getElementById("submint-btn");
+
+let dene = false; 
+
 window.jQuery(function() {
     var $ = window.jQuery;
     var styleClb = function() {
@@ -108,4 +115,21 @@ window.jQuery(function() {
         $('.fb3d-modal').fb3dModal('show');
       }
     });
-  });
+});
+
+
+function change(){
+  if(dene == false){
+    article_middle_h1.textContent = "Hesap Oluştur";
+    article_middle_p.textContent = "Veya email hesabınla hesap oluşturabilirsin";
+    submint_btn.textContent = "Kayıt Ol";
+    dene = true;
+  }
+  else if(dene == true){
+    article_middle_h1.textContent = "Giriş Yap";
+    article_middle_p.textContent = "Veya email hesabınla giriş yapabilirsin";
+    submint_btn.textContent = "Giriş Yap";
+    dene = false;
+  }
+}
+
