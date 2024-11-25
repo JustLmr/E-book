@@ -1,0 +1,245 @@
+@media only screen and (max-width: 2000px) and (min-width: 1024px)  {
+    .article-left{
+        width:30%;
+    }
+
+    .books{
+        width: 70%;
+    }
+    .thumbnail{
+        float: left;
+        width: 300px;
+        height: 250px;
+        cursor: pointer;
+        margin: auto;
+        transition: all ease-in 0.2s;
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+    .article-left{
+        width:30%;
+    }
+
+    .books{
+        width: 70%;
+        height: 500px;
+    }
+
+    .book{
+        width: 200px;
+        height: 300px;
+    }
+    .card{
+        width: 200px;
+        height: 300px;
+    }
+    .thumbnail{
+        float: left;
+        width: 200px;
+        height: 200px;
+        cursor: pointer;
+        margin: auto;
+        transition: all ease-in 0.2s;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 425px)  {
+    article{
+        width: 100%;
+        height: 5000px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+    .article-left{
+        width:50%;
+        height: 10%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .thum-div{
+        width: 50%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .books{
+        width:50%;
+        height: 1500px;
+        margin:0;
+            
+    }
+
+    .thumbnail{
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        margin: auto;
+        transition: all ease-in 0.2s;
+        margin-left: 30px;
+        margin: 0 0 0 0 !important;
+        
+    }
+    
+
+    .book{
+        width: 400px;
+        height: 400px;
+    }
+    .card{
+        width: 200px;
+        height: 300px;
+    }
+    .thumbnail{
+        float: left;
+        width: 200px;
+        height: 200px;
+        cursor: pointer;
+        margin: auto;
+        transition: all ease-in 0.2s;
+    }
+}
+@media only screen and (max-width: 425px) and (min-width: 375px)  {
+    .logo{
+        font-size: 12px;
+    }
+    header ul li a{
+        font-size: 12px;
+    }
+    .right-ul li:nth-child(1),
+    .right-ul li:nth-child(2){
+        display: none;
+    }
+    
+    article{
+        width: 100%;
+        height: 5000px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+    .article-left{
+        width:60%;
+        height: 10%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .books{
+        width:60%;
+        height: 1500px;
+        margin:0;
+    }
+
+    .thum-div{
+        width: 80%;
+    }
+
+    
+
+    .thumbnail{
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        margin: auto;
+        transition: all ease-in 0.2s;
+        margin-left: 30px;
+        margin: 0 0 0 0 !important;
+        
+    }
+    
+
+    .book{
+        width: 400px;
+        height: 400px;
+    }
+    .card{
+        width: 200px;
+        height: 300px;
+    }
+    .thumbnail{
+        float: left;
+        width: 200px;
+        height: 200px;
+        cursor: pointer;
+        margin: auto;
+        transition: all ease-in 0.2s;
+    }
+}
+@media only screen and (max-width: 375px) and (min-width: 320px)  {
+    .logo{
+        font-size: 12px;
+    }
+    header ul li a{
+        font-size: 12px;
+    }
+    .right-ul li:nth-child(1),
+    .right-ul li:nth-child(2){
+        display: none;
+    }
+    
+    article{
+        width: 100%;
+        height: 5000px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+    .article-left{
+        width:60%;
+        height: 10%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .books{
+        width:60%;
+        height: 1500px;
+        margin:0;
+    }
+
+    .thum-div{
+        width: 80%;
+        height: 500px;
+    }
+
+    
+
+    .thumbnail{
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        margin: auto;
+        transition: all ease-in 0.2s;
+        margin-left: 30px;
+        margin: 0 0 0 0 !important;
+        
+    }
+    
+
+    .book{
+        width: 400px;
+        height: 400px;
+    }
+    .card{
+        width: 200px;
+        height: 300px;
+    }
+    .thumbnail{
+        float: left;
+        width: 200px;
+        height: 200px;
+        cursor: pointer;
+        margin: auto;
+        transition: all ease-in 0.2s;
+    }
+}

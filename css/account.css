@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", serif;
+    color: black;
+}
+body{
+    background-color: #f9f3ec;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+header .center-ul {
+    margin: auto;
+}
+header .center-ul li{
+    float: left;
+    margin-right: 20px;
+}
+header ul li a{
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all ease-in 0.25s;
+}
+header .center-ul li a:hover{
+    background-color: orange;
+}
+header .right-ul button,
+header .right-ul li{
+    background-color: transparent;
+    border: none;
+    float: left;
+    font-size: 23px;
+    margin-right: 10px;
+    cursor:pointer;
+}
+.logo{
+    margin-left: 20px;
+}
+
+
+article{
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px solid gray;
+}
+.article-left{
+    background-color:bisque;
+    width: 40%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.article-right{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.article-top{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.article-top p{
+    margin-left: auto;
+    margin-right: 10px;
+    color: #b2b2b2;
+    font-size: small;
+}
+.article-center{
+    width: 100%;
+    height: 90%;
+}
+.article-middle{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+
+}
+.article-middle h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.article-middle p{
+    font-size:small;
+    color: gray;
+}
+.account-sign{
+    padding: 10px 40px;
+    border-radius: 15px;
+    border:2px solid gray;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+.input-div{
+    width: 100%;
+    height: 200px;
+}
+.input-card{
+    background-color:#ececec;
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.input-card i{
+    padding: 7px;
+    margin-left: 10px;
+    color: gray;
+    font-size: 15px;
+}
+.input-card input{
+    padding: 7px;
+    width:75%;
+    border: none;
+    background-color: transparent;
+}
+.submint-btn{
+    background-color:#0c68e9;
+    width: 70%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
