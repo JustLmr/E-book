@@ -50,7 +50,7 @@ window.jQuery(function() {
         }
       },
       book3: {
-        pdf: 'books/pdf/docker.pdf',
+        pdf: 'books/pdf/hayatadair3.pdf',
         propertiesCallback: function(props) {
           props.page.depth /= 3;
           return props;
